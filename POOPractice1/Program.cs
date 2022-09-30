@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Program by @dasshuii on gitHub
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -11,10 +13,14 @@ namespace POOPractice1
     {
         static void Main(string[] args)
         {
-            Circle myCircle = new Circle(5);
-            Console.WriteLine(myCircle.ToString());
+            Circle myCircle = new Circle();
 
-            Console.Read();
+            Console.WriteLine("Type Radius: ");
+
+            myCircle.Radius = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(myCircle.ToString());
+            Console.ReadLine();
         }
     }
 
