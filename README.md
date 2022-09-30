@@ -1,1 +1,1 @@
-# POOPractice1
+# Simple POO project using a circle
